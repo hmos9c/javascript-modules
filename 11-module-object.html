@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Module Object</title>
+</head>
+
+<body>
+    <script type="module">
+
+        import * as sanas from "./scripts/11-module-object.js";
+
+        console.info(sanas.firstName);
+        console.info(sanas.middleName);
+        console.info(sanas.lastName);
+
+        sanas.hello();
+
+        const person = new sanas.Person();
+
+    </script>
+</body>
+
+</html>
